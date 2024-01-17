@@ -1,0 +1,33 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ARCHTEST!</title>
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='"stylesheet"'> 
+   <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <script src="app.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+  <body>
+     <div class="quadrado-titulo">
+        <h1>ARCHTEST!</h1>
+    </div>
+    <div class="bola"  id="pontos">stereo-fiction</div>
+    <button id="start"onclick=" IniciarOJogo()">começar o desafio!</button>
+    
+    <div class= "caixa-pergunta" id="pergunta" style='display:none'></div>
+    
+    <div class= respostas id="respostas" style="display:none">
+      
+      <div class="opcao"  id="alt_a" onclick="verificarRespostaA()">a</div>
+      
+      <div class="opcao" id="alt_b" onclick="verificarRespostaB()">b</div>
+      
+      <div class="opcao" id="alt_c" onclick="verificarRespostaC()">c</div>
+      
+      <div class="opcao" id="alt_d" onclick="verificarRespostaD()">d</div>
+    </div>
+   
+</body>
+</html>
