@@ -160,7 +160,7 @@ function verificarRespostaC(){
 function verificarRespostaD(){
   let respostadada= document.getElementById('alt_d').innerHTML
     if (respostadada == listadegabarito[indexatual]){
-    mudarTexto('pergunta',`Resposta Certa!`)
+    mudarTexto('pergunta',`Resposta Certa!`);
     pontos= pontos + 10;
     console.log('resposta certa')
   } else{
